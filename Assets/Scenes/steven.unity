@@ -272,7 +272,7 @@ MonoBehaviour:
   winText: {fileID: 1391652714}
   asset: {fileID: 4900000, guid: 8269f01f455ae3440a596de1c93eebf1, type: 3}
   isHot: 0
-  nextScene: piratekid
+  nextScene: gameover
   victorysong: {fileID: 1710666889}
   winplaying: 0
 --- !u!4 &562628961
