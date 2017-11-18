@@ -15,6 +15,24 @@ EditorBuildSettings:
     path: Assets/Scenes/main.unity
     guid: dcd7232c48fcbb549a2c12019c2fc772
   - enabled: 1
+    path: Assets/Scenes/piratekid.unity
+    guid: 7a07b61c40c15194d92d07581b6e3713
+  - enabled: 1
+    path: Assets/Scenes/eli.unity
+    guid: b6b4fc19ac0f2e64e88c215c3f020d47
+  - enabled: 1
+    path: Assets/Scenes/steven.unity
+    guid: ea1b32ae77bd97043b67155bae55d889
+  - enabled: 1
+    path: Assets/Scenes/stephan.unity
+    guid: 6853ab745e406f44ab76d9714448c858
+  - enabled: 1
+    path: Assets/Scenes/jeff.unity
+    guid: f554e5f6059710943a43de3ea26c602c
+  - enabled: 1
+    path: Assets/Scenes/lalo.unity
+    guid: cc87a3a567200ae4990fc85277ee9ca4
+  - enabled: 1
     path: Assets/Scenes/Cut Scene.unity
     guid: e1551ce0773f04891b8f1543e79163ba
   - enabled: 1
