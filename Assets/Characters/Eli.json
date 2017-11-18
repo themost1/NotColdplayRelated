@@ -1,0 +1,30 @@
+{
+	"Text": "Do you know how I can join the Church of Scientology?",
+	"choice1": {
+		"Value": "I don’t know for sure, but taking your shirt off is probably a good start.",
+		"Text": "Thanks. Also, quick question: what is the only thing that breaks the mold?",
+		"choice1": {
+			"Value": "Shooting stars of course.",
+			"Text": "Correct! Keep this up and the pants are coming off too.",
+			"Win": true
+		},
+		"choice2": {
+			"Value": "Scissors",
+			"Text": "You are dumb as a rock. I’m putting my shirt back on, Loser.",
+			"Lose": true
+		}
+	},
+	"choice2": {
+		"Value": "No idea. Sorry bud.",
+		"Text": "You wanna playtest Herman?",
+		"choice1": {
+			"Value": "Nah.",
+			"Text": "k",
+			"Lose": true
+		},
+		"choice2":{
+			"Value": "Yeah, it is.",
+			"Lose": true
+		}
+	}
+}
