@@ -16,6 +16,7 @@ public class DataController : MonoBehaviour {
 	public Text winText;
 	public TextAsset asset;
 	public bool isHot;
+	public string nextScene;
 	private GameData data;
 	private GameData currentNode;
     public AudioSource victorysong;
@@ -66,7 +67,7 @@ public class DataController : MonoBehaviour {
 	public void ScrewYou()
 	{
 		speakerText.gameObject.SetActive (false);
-		EndGame (false);
+		EndGame (!isHot);
 	}
 
 	public void ClickButtonOne()
@@ -119,6 +120,7 @@ public class DataController : MonoBehaviour {
      IEnumerator EndScene()
     {
         yield return new WaitForSeconds(5);
+        nextscene.setNextScene(nextScene);
         SceneManager.LoadScene(9);
     }
 }

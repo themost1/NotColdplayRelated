@@ -3,8 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-
 public class nextscene : MonoBehaviour {
+
+	public static string nextScene;
+
+	public static void setNextScene(string inScene)
+	{
+		nextScene = inScene;
+	}
 
 	// Use this for initialization
 	void Start () {
@@ -18,7 +24,7 @@ public class nextscene : MonoBehaviour {
 
     IEnumerator PostPirateScene()
     {
-        yield return new WaitForSeconds(2);
-        SceneManager.LoadScene(3);
+        yield return new WaitForSeconds(0.5f);
+        SceneManager.LoadScene(nextScene);
     }
 }

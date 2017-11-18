@@ -14,8 +14,27 @@
 			"Lose":true
 		}
 	},
-	"choice2":{
-		"Value":"I hate pizza also",
-		"Lose":true
+    "choice2": {
+        "Value": "I hate pizza also",
+        "Text": "You can add some sort of wavy green thing",
+        "choice1": {
+            "Value": "Penis?",
+            "Text": "Yes, it is my penis. Let's whip out this bad boy, Louis style.",
+            "Lose":  true 
+        },
+        "choice2": {
+            "Value": "What?",
+            "Text": "You can add some sort of wavy green thing",
+            "choice1": {
+                "Value": "Nah",
+                "Text": "Fuck you",
+                "Lose": false
+            },
+            "choiec2": {
+                "Value": "Hell no",
+                "Text": "Fuck off",
+                "Lose":  false
+            }
+        }
 	}
 }
