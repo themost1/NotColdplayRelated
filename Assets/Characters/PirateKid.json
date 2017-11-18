@@ -11,6 +11,11 @@
 				"Text":"K, let’s have sex then",
 				"Lose": true
 			},
+			"choice2":{
+				"Value": "I used to be a pirate and it was nothing like this game.",
+				"Text": "Oh shit, you were a pirate? That's so hot... *removes clothing*",
+				"Lose": true
+			}
 		},
 		"choice2":{
 			"Value": "Wow, this is actually pretty cool",

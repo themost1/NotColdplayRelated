@@ -21,10 +21,13 @@ public class DataController : MonoBehaviour {
 
 	private void SetCurrentNode(GameData newNode)
 	{
-		if (newNode.isLoss || newNode.isVictory) {
-			EndGame (newNode.isVictory);
+		currentNode = newNode;
+		if (currentNode.isLoss || currentNode.isVictory) {
+			if (currentNode.text != null) {
+				speakerText.text = currentNode.text;
+			}
+			EndGame (currentNode.isVictory);
 		} else {
-			currentNode = newNode;
 			buttonOneText.text = currentNode.opt1Data.value;
 			buttonTwoText.text = currentNode.opt2Data.value;
 			speakerText.text = currentNode.text;
@@ -43,7 +46,7 @@ public class DataController : MonoBehaviour {
 				winText.text = "You just had sex with one of the hottest people ever, congrats!";
 			}
 			else {
-				winText.text = "You just had sex with a loser. Your SS goes down :(";
+				winText.text = "You dodged a bullet there. Good job avoiding that loser.";
 			}
 		}
 		else {
@@ -51,7 +54,7 @@ public class DataController : MonoBehaviour {
 				winText.text = "You missed out on a shot with one of the hottest people ever. You will have eternal regret.";
 			}
 			else {
-				winText.text = "You dodged a bullet there. Good job avoiding that loser.";
+				winText.text = "You just had sex with a loser. Your SS goes down :(";
 			}
 		}
 		winText.gameObject.SetActive (true);
@@ -59,6 +62,7 @@ public class DataController : MonoBehaviour {
 
 	public void ScrewYou()
 	{
+		speakerText.gameObject.SetActive (false);
 		EndGame (false);
 	}
 
