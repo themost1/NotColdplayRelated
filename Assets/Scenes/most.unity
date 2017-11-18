@@ -233,7 +233,7 @@ GameObject:
   - component: {fileID: 156282626}
   - component: {fileID: 156282625}
   m_Layer: 0
-  m_Name: lalo
+  m_Name: ben
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -273,7 +273,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7f812fef4b984154cb65bda45efc2d9c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 22e46397805349849b65c9a5156ea754, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -290,8 +290,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 156282624}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.81, y: 0.29, z: 0}
-  m_LocalScale: {x: 0.8928648, y: 0.8928648, z: 0.8928648}
+  m_LocalPosition: {x: -0.1, y: 0.02, z: 0}
+  m_LocalScale: {x: 0.70529675, y: 0.70529675, z: 0.70529675}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 5
@@ -330,7 +330,7 @@ MonoBehaviour:
   buttonTwoText: {fileID: 1291628983}
   speakerText: {fileID: 1956899580}
   winText: {fileID: 0}
-  asset: {fileID: 4900000, guid: 1bfb57a6c626df44fa944b8cfb8fd38a, type: 3}
+  asset: {fileID: 4900000, guid: 2b9d38d02d80a2e4eb82b67ffc510b5a, type: 3}
   isHot: 0
 --- !u!4 &562628961
 Transform:

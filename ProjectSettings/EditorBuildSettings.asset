@@ -12,9 +12,6 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: e46241a968d6b7a4e98c2f0c2118a732
   - enabled: 1
-    path: Assets/Scenes/main.unity
-    guid: dcd7232c48fcbb549a2c12019c2fc772
-  - enabled: 1
     path: Assets/Scenes/piratekid.unity
     guid: 7a07b61c40c15194d92d07581b6e3713
   - enabled: 1
@@ -32,6 +29,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/lalo.unity
     guid: cc87a3a567200ae4990fc85277ee9ca4
+  - enabled: 1
+    path: Assets/Scenes/chris.unity
+    guid: 94f4c06ecb7281a459fe1c6da62f928a
   - enabled: 1
     path: Assets/Scenes/Cut Scene.unity
     guid: e1551ce0773f04891b8f1543e79163ba

@@ -58,6 +58,7 @@ public class DataController : MonoBehaviour {
 			}
 		}
 		winText.gameObject.SetActive (true);
+        StartCoroutine("EndScene");
 	}
 
 	public void ScrewYou()
@@ -112,5 +113,11 @@ public class DataController : MonoBehaviour {
 		public GameData opt1Data = null;
 		public GameData opt2Data = null;
 	}
+
+     IEnumerator EndScene()
+    {
+        yield return new WaitForSeconds(5);
+        SceneManager.LoadScene(9);
+    }
 }
 
