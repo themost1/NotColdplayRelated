@@ -24,7 +24,7 @@ public class nextscene : MonoBehaviour {
 
     IEnumerator PostPirateScene()
     {
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(0.001f);
         SceneManager.LoadScene(nextScene);
     }
 }
