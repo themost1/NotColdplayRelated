@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class ColdplayButtonScript : MonoBehaviour {
+public class ReturnToMain : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
@@ -17,6 +17,6 @@ public class ColdplayButtonScript : MonoBehaviour {
 
     private void OnMouseDown()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(1);
     }
 }
