@@ -16,8 +16,10 @@ public class DataController : MonoBehaviour {
 	public Text winText;
 	public TextAsset asset;
 	public bool isHot;
+	public string nextScene;
 	private GameData data;
 	private GameData currentNode;
+    public AudioSource victorysong;
 
 	private void SetCurrentNode(GameData newNode)
 	{
@@ -48,6 +50,7 @@ public class DataController : MonoBehaviour {
 			else {
 				winText.text = "You dodged a bullet there. Good job avoiding that loser.";
 			}
+            victorysong.Play();
 		}
 		else {
 			if (isHot) {
@@ -58,12 +61,13 @@ public class DataController : MonoBehaviour {
 			}
 		}
 		winText.gameObject.SetActive (true);
+        StartCoroutine("EndScene");
 	}
 
 	public void ScrewYou()
 	{
 		speakerText.gameObject.SetActive (false);
-		EndGame (false);
+		EndGame (!isHot);
 	}
 
 	public void ClickButtonOne()
@@ -112,5 +116,12 @@ public class DataController : MonoBehaviour {
 		public GameData opt1Data = null;
 		public GameData opt2Data = null;
 	}
+
+     IEnumerator EndScene()
+    {
+        yield return new WaitForSeconds(5);
+        nextscene.setNextScene(nextScene);
+        SceneManager.LoadScene(9);
+    }
 }
 
