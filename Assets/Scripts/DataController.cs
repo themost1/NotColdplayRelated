@@ -8,6 +8,8 @@ using SimpleJSON;
 
 public class DataController : MonoBehaviour {
 
+	public GameObject picture;
+	public GameObject UI;
 	public Text buttonOneText;
 	public Text buttonTwoText;
 	public Text speakerText;
@@ -17,10 +19,15 @@ public class DataController : MonoBehaviour {
 
 	private void SetCurrentNode(GameData newNode)
 	{
-		currentNode = newNode;
-		buttonOneText.text = currentNode.opt1Data.value;
-		buttonTwoText.text = currentNode.opt2Data.value;
-		speakerText.text = currentNode.text;
+		if (newNode.isLoss || newNode.isVictory) {
+			picture.SetActive (true);
+			UI.SetActive (false);
+		} else {
+			currentNode = newNode;
+			buttonOneText.text = currentNode.opt1Data.value;
+			buttonTwoText.text = currentNode.opt2Data.value;
+			speakerText.text = currentNode.text;
+		}
 	}
 
 	public void ClickButtonOne()
