@@ -1,0 +1,31 @@
+{
+	"Text": "How do you feel about dead rats?",
+    "choice1": {
+        "Value": "What the fuck?",
+        "Text": "I didn't come here to mess around. Fuck off, asshole.",
+        "Lose":  true
+	},
+	"choice2": {
+        "Value": "They're all right, I guess.",
+        "Text": "I can work with that. So, now that we've gotten to know each other a little better, wanna bang?",
+        "choice1": {
+            "Value": "Wait, how do the dead rats factor into this?",
+            "Text": "Don't worry about it.",
+            "choice1": {
+                "Value": "Sure, I'll try anything once",
+                "Text": "Sexy!",
+                "Win": true
+            },
+            "choice2": {
+                "Value": "Hmm...I'll pass",
+                "Text": "Unsexy",
+                "Lose":  true
+            }
+        },
+        "choice2": {
+            "Value": "Sure, as long as you are down for some rat play.",
+            "Text": "Sounds pretty sexy to me.",
+            "Win":  true
+        }
+	}
+}
