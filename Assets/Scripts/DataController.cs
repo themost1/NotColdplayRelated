@@ -127,7 +127,7 @@ public class DataController : MonoBehaviour {
 
     private void Update()
     {
-        if (victorysong.isPlaying == true)
+        if (victorysong != null && victorysong.isPlaying == true)
         {
             winplaying = true;
         }

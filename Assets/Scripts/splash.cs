@@ -20,11 +20,13 @@ public class splash : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        
-        data = GameObject.FindWithTag("GameController").GetComponent<DataController>();
-        if (data.winplaying == true)
-        {
-            mainmusic.Pause();
+        GameObject controller = GameObject.FindWithTag("GameController");
+        if (controller != null) {
+            data = GameObject.FindWithTag("GameController").GetComponent<DataController>();
+            if (data.winplaying == true)
+            {
+                mainmusic.Pause();
+            }
         }
 	}
 }
