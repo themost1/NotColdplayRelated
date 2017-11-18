@@ -9,25 +9,57 @@ using SimpleJSON;
 public class DataController : MonoBehaviour {
 
 	public GameObject picture;
-	public GameObject UI;
+	public GameObject[] UI;
 	public Text buttonOneText;
 	public Text buttonTwoText;
 	public Text speakerText;
+	public Text winText;
 	public TextAsset asset;
+	public bool isHot;
 	private GameData data;
 	private GameData currentNode;
 
 	private void SetCurrentNode(GameData newNode)
 	{
 		if (newNode.isLoss || newNode.isVictory) {
-			picture.SetActive (true);
-			UI.SetActive (false);
+			EndGame (newNode.isVictory);
 		} else {
 			currentNode = newNode;
 			buttonOneText.text = currentNode.opt1Data.value;
 			buttonTwoText.text = currentNode.opt2Data.value;
 			speakerText.text = currentNode.text;
 		}
+	}
+
+	public void EndGame(bool inWon)
+	{
+		picture.SetActive (true);
+		foreach (GameObject g in UI)
+		{
+			g.SetActive (false);
+		}
+		if (inWon) {
+			if (isHot) {
+				winText.text = "You just had sex with one of the hottest people ever, congrats!";
+			}
+			else {
+				winText.text = "You just had sex with a loser. Your SS goes down :(";
+			}
+		}
+		else {
+			if (isHot) {
+				winText.text = "You missed out on a shot with one of the hottest people ever. You will have eternal regret.";
+			}
+			else {
+				winText.text = "You dodged a bullet there. Good job avoiding that loser.";
+			}
+		}
+		winText.gameObject.SetActive (true);
+	}
+
+	public void ScrewYou()
+	{
+		EndGame (false);
 	}
 
 	public void ClickButtonOne()
