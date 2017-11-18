@@ -1,0 +1,45 @@
+{
+	"Text": "Do you want to play my pirate game?",
+	"choice1":{
+		"Value": "Suuure???",
+		"Text": "K, it’s a really cool game where you control a ship and you fight another ship and then board it.",
+		"choice1":{
+			"Value": " On second thought, I’m good.",
+			"Text": "Awesome! So this bar over here is your health and…",
+			"choice1":{
+				"Value": "PLEASE STOP",
+				"Text":"K, let’s have sex then",
+				"Lose": true
+			},
+		},
+		"choice2":{
+			"Value": "Wow, this is actually pretty cool",
+			"Text": "You don’t mean that, I’m leaving",
+			"Lose": false
+		}
+	},
+	"choice2":{
+		"Value": "Pirates are dumb",
+		"Text": "K, it’s a really cool game where you control a ship and you fight another ship and then board it.",
+		"choice1":{
+			"Value": "Ninjas are way cooler than pirates imo",
+			"Text": "Awesome! So this bar over here is your health and…",
+		
+			"choice1": {
+				"Value": "Dude, how many times do I have to tell you. I don’t care.",
+				"Text": "Well now that you’ve seen the game, wanna have sex?",
+				"Lose": true
+			},
+			"choice2": {
+				"Value": "You know what’s cooler than pirates? Having sex.",
+				"Text": "k",
+				"Lose": true
+			},
+		},
+		"choice2": {
+			"Value": "Wow, this is actually pretty cool",
+			"Text": "You don’t mean that, I’m leaving",
+			"Lose": false
+		}
+	}
+}
