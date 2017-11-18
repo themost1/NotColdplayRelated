@@ -29,7 +29,7 @@
         "choice1": {
             "Value": "I don’t know if that’s a true statement",
             "Text": "It isn't. Goodbye.",
-            "Lose": false;
+            "Lose": false
 
         },
         "choice2": {
