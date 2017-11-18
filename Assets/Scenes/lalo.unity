@@ -324,11 +324,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   picture: {fileID: 156282624}
-  UI: {fileID: 1774098928}
+  UI:
+  - {fileID: 0}
   buttonOneText: {fileID: 1580738833}
   buttonTwoText: {fileID: 1291628983}
   speakerText: {fileID: 1956899580}
-  asset: {fileID: 4900000, guid: 1fa8b6b1f9f977648b5300629c240ad3, type: 3}
+  winText: {fileID: 0}
+  asset: {fileID: 4900000, guid: 1bfb57a6c626df44fa944b8cfb8fd38a, type: 3}
+  isHot: 0
 --- !u!4 &562628961
 Transform:
   m_ObjectHideFlags: 0

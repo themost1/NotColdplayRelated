@@ -23,8 +23,9 @@
 			"Lose": true
 		},
 		"choice2":{
-			"Value": "Yeah, it is.",
-			"Lose": true
+			"Value": "If that is a euphamism for us banging, I'm in.",
+			"Text": "Yeah, it is.",
+			"Win": true
 		}
 	}
 }

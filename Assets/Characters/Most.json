@@ -2,7 +2,35 @@
 	"Text":"I don’t know what you look like, but if you have se with me your game:games will triple!",
 	"choice1":{
 		"Value":"Game:games?",
-		"Lose":false
+		"Text": "It's the ratio of how much game you have to how many games you have.",
+		"choice1":{
+			"Value":"My game:games is about equal to one, but I DO have around 3000 games.",
+			"Text": "Well I guess we'll find out tonight how much game 3000 games is worth.",
+			"Win": true
+		},
+		"choice2":{
+			"Value": "Makes some sort of sense I guess...",
+			"Text": "I believe that every man is born with a purpose and a unique set of skills for achieving that purpose. For me, that purpose is pickup. I didn't ask to have women melt in my piercing gaze, or to be able to seduce even the hottest of babes. I never wanted to have this burden, the burden of my own sexuality and the constant attention I receive from girls. But if I have the ability to make people happy and to help women achieve orgasm through my God-given skills, then that is what I must do. If I can make the world a better place, one hookup at a time, then it is not just my task but my responsibility as a human being to do so. It's not an easy job -- indeed, I often wish I could be just another chump on the street, having sex with only a few women in his lifetime. But I was born with a purpose, and I must fulfill it.",
+			"choice1":{
+				"Value": "HAVE SEX WITH ME NOW!",
+				"Text": "K",
+				"Win": true
+			},
+			"choice2":{
+				"Value": "I'll see myself out",
+				"Text": "Sometimes I imagine myself with a ten-foot-long green and brown boa constrictor instead of my penis. The boa is a hungry beast, satisfied only by the taste of pussy. I struggle to live a normal life, but the boa steers my every move, forcing me to approach women and seduce them. If the boa starves, I must also die, so it is my unfortunate task to keep it hungry. When it's angry, the boa bites at my fingers, demanding that I feed it. However, it is also a trustworthy friend, always there for me in times of trouble. I respect and fear the boa.",
+				"choice1":{
+					"Value": "Bye",
+					"Text": "What a loser. I bet your game is at most 1.1 Bens.",
+					"Lose": true
+				},
+				"choice2":{
+					"Value": "Sooo... hot...",
+					"Text": "*sexual noises*",
+					"Win": true
+				}
+			}
+		}
 	},
 	"choice2":{
 		"Value":"Idk, I already have so much game…",
@@ -12,11 +40,23 @@
 			"Text":"Sex score, a measure of how much sex?",
 			"choice1": {
 				"Value": "Was this game made by teenage boys?",
-				"Text": "Yes."
+				"Text": "Yes. And you can hop on THIS teenage boy's herman if you want.",
+				"choice1": {
+					"Value": "Sign me up!",
+					"Text": "*sexual noises*",
+					"Win": true
+				},
+				"choice2": {
+					"Value": "This is really innapropriate. I'm leaving",
+					"Text": "Your SS will forever be diminished.",
+					"Lose": true
+				}
 			}
 		},
 		"choice2":{
-			"Value":"Tomorrow morning when you see the imprint I left in your bed you will realize just how much of a god you are."
+			"Value":"Tomorrow morning when you see the imprint I left in your bed you will realize just how much of a god you are.",
+			"Text":"Yeah boi",
+			"Win": true
 		}
 	}
 }
