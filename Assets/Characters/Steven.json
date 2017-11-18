@@ -1,0 +1,41 @@
+{
+	"Text": "You never really notice, but I am a great lover in the dark",
+	"choice1": {
+		"Value": "I like the idea",
+		"Text": "It was not fast enough.",
+		"choice1": {
+			"Value": "Here’s what I want to propose",
+			"Text": "Get us to another level.",
+			"choice1": {
+				"Value": "How about me and you go back to my room and have sex?",
+				"Lose": true
+			}
+		},
+		"choice2":{
+			"Value": "*Some bullshit philosophical statement*",
+			"Text": "They all, they DO look that way!",
+			"Lose": true
+		}
+	},
+	"choice2": {
+		"Value": "You need coffee",
+		"Text": "Let’s go to Starbucks later.",
+		"choice1":{
+			"Value": "Let’s do it!",
+			"Lose": true
+		},
+		"choice2": {
+			"Value":"Fuck coffee. I only drink milk.",
+			"Text": "You can’t just walk away.",
+			"choice1": {
+				"Value": "I don’t care about you.",
+				"Text": "You’re giving up this early?",
+				"Win": true
+			},
+			"choice2": {
+				"Value": "You’re right, there’s something irresistible about you.",
+				"Lose": true
+			}
+		}
+	}
+}
