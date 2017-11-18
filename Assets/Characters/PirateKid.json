@@ -15,7 +15,7 @@
 		"choice2":{
 			"Value": "Wow, this is actually pretty cool",
 			"Text": "You don’t mean that, I’m leaving",
-			"Lose": false
+			"Win": true
 		}
 	},
 	"choice2":{
@@ -39,7 +39,7 @@
 		"choice2": {
 			"Value": "Wow, this is actually pretty cool",
 			"Text": "You don’t mean that, I’m leaving",
-			"Lose": false
+			"Win": true
 		}
 	}
 }
