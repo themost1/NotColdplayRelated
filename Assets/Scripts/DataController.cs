@@ -3,20 +3,42 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using System.IO;
+using UnityEngine.UI;
 using SimpleJSON;
 
 public class DataController : MonoBehaviour {
 
+	public Text buttonOneText;
+	public Text buttonTwoText;
+	public Text speakerText;
 	public TextAsset asset;
 	private GameData data;
+	private GameData currentNode;
 
-	void Start()
+	private void SetCurrentNode(GameData newNode)
 	{
-		Debug.Log (asset);
+		currentNode = newNode;
+		buttonOneText.text = currentNode.opt1Data.value;
+		buttonTwoText.text = currentNode.opt2Data.value;
+		speakerText.text = currentNode.text;
+	}
+
+	public void ClickButtonOne()
+	{
+		SetCurrentNode (currentNode.opt1Data);
+	}
+
+	public void ClickButtonTwo()
+	{
+		SetCurrentNode (currentNode.opt2Data);
+	}
+
+	public void Start()
+	{
 		string text = asset.text;
 		JSONNode node = JSON.Parse (text);
 		data = LoadGameData (node);
-
+		SetCurrentNode (data);
 		//SceneManager.LoadScene("MainMenu");
 	}
 
