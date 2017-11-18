@@ -16,7 +16,6 @@ public class DataController : MonoBehaviour {
 		string text = asset.text;
 		JSONNode node = JSON.Parse (text);
 		data = LoadGameData (node);
-		Debug.Log (data.opt1Data.opt2Data.text);
 
 		//SceneManager.LoadScene("MainMenu");
 	}
