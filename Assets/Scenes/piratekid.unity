@@ -346,6 +346,7 @@ MonoBehaviour:
   asset: {fileID: 4900000, guid: 9cd16a033363b314eb3a25eccac9a75b, type: 3}
   isHot: 0
   nextScene: chris
+  victorysong: {fileID: 0}
 --- !u!4 &562628961
 Transform:
   m_ObjectHideFlags: 0

@@ -15,6 +15,7 @@
 				"choice1":
 				{
 					"Text": "Main menu",
+					"Value": "What?",
 					"Win": true,
 				},
 				"choice2":
@@ -28,6 +29,7 @@
 						"choice1":
 						{
 							"Text": "Main menu",
+							"Value": "What?",
 							"Win": true
 						},
 						"choice2":
@@ -45,17 +47,20 @@
 									"choice1":
 									{
 										"Text": "Main menu",
+										"Value": "What?",
 										"Win": true
 									},
 									"choice2":
 									{
 										"Text": "Main menu",
+										"Value": "What?",
 										"Win": true
 									}
 								},
 								"choice2":
 								{
 									"Text": "Main menu",
+									"Value": "What?",
 									"Win": true
 								}
 							},
@@ -66,11 +71,13 @@
 								"choice1":
 								{
 									"Text": "Main menu",
+									"Value": "What?",
 									"Win": true
 								},
 								"choice2":
 								{
 									"Text": "Main menu",
+									"Value": "What?",
 									"Win": true
 								}
 							}
@@ -79,6 +86,7 @@
 					"choice2":
 					{
 						"Text": "Main menu",
+						"Value": "What?",
 						"Win": true
 					}
 				}
@@ -98,11 +106,13 @@
 						"choice1":
 						{
 							"Text": "Main menu",
+							"Value": "What?",
 							"Win": true
 						},
 						"choice2":
 						{
 							"Text": "Main menu",
+							"Value": "What?",
 							"Win": true
 						}	
 					},
@@ -113,6 +123,7 @@
 						"choice1":
 						{
 							"Text": "Main menu",
+							"Value": "What?",
 							"Win": true
 						},
 						"choice2":
@@ -122,11 +133,13 @@
 							"choice1":
 							{
 								"Text": "Main menu",
+								"Value": "What?",
 								"Win": true
 							},
 							"choice2":
 							{
 								"Text": "Main menu",
+								"Value": "What?",
 								"Win": true
 							}
 						}
@@ -139,6 +152,7 @@
 					"choice1":
 					{
 						"Text": "Main menu",
+						"Value": "What?",
 						"Win": true
 					},
 					"choice2":
@@ -152,11 +166,13 @@
 							"choice1":
 							{
 								"Text": "Main menu",
+								"Value": "What?",
 								"Win": true
 							},
 							"choice2":
 							{
 								"Text": "Main menu",
+								"Value": "What?",
 								"Win": true
 							}
 						},
@@ -167,6 +183,7 @@
 							"choice1":
 							{
 								"Text": "Main menu",
+								"Value": "What?",
 								"Win": true
 							},
 							"choice2":
@@ -176,11 +193,13 @@
 								"choice1":
 								{
 									"Text": "Main menu",
+									"Value": "What?",
 									"Win": true
 								},
 								"choice2":
 								{
 									"Text": "Main menu",
+									"Value": "What?",
 									"Win": true
 								}
 							}
@@ -200,6 +219,7 @@
 				"choice1":
 				{
 					"Text": "Main menu",
+					"Value": "What?",
 					"Win": true
 				},
 				"choice2":
@@ -217,17 +237,20 @@
 							"choice1":
 							{
 								"Text": "Main menu",
+								"Value": "What?",
 								"Win": true
 							},
 							"choice2":
 							{
 								"Text": "Main menu",
+								"Value": "What?",
 								"Win": true
 							}
 						},
 						"choice2":
 						{
 							"Text": "Main menu",
+							"Value": "What?",
 							"Win": true
 						}
 					},
@@ -238,11 +261,13 @@
 						"choice1":
 						{
 							"Text": "Main menu",
+							"Value": "What?",
 							"Win": true
 						},
 						"choice2":
 						{
 							"Text": "Main menu",
+							"Value": "What?",
 							"Win": true
 						}
 					}
@@ -251,6 +276,7 @@
 			"choice2":
 			{
 				"Text": "Main menu",
+				"Value": "What?",
 				"Win": true
 			}
 		}
@@ -265,6 +291,7 @@
 			"choice1":
 			{
 				"Text": "Main menu",
+				"Value": "What?",
 				"Win": true
 			},
 			"choice2":
@@ -282,17 +309,20 @@
 						"choice1":
 						{
 							"Text": "Main menu",
+							"Value": "What?",
 							"Win": true
 						},
 						"choice2":
 						{
 							"Text": "Main menu",
+							"Value": "What?",
 							"Win": true
 						}
 					},
 					"choice2":
 					{
 						"Text": "Main menu",
+						"Value": "What?",
 						"Win": true
 					}
 				},
@@ -303,11 +333,13 @@
 					"choice1":
 					{
 						"Text": "Main menu",
+						"Value": "What?",
 						"Win": true
 					},
 					"choice2":
 					{
 						"Text": "Main menu",
+						"Value": "What?",
 						"Win": true
 					}
 				}
@@ -327,6 +359,7 @@
 					"choice1":
 					{
 						"Text": "Main menu",
+						"Value": "What?",
 						"Win": true,
 					},
 					"choice2":
@@ -340,6 +373,7 @@
 							"choice1":
 							{
 								"Text": "Main menu",
+								"Value": "What?",
 								"Win": true
 							},
 							"choice2":
@@ -357,17 +391,20 @@
 										"choice1":
 										{
 											"Text": "Main menu",
+											"Value": "What?",
 											"Win": true
 										},
 										"choice2":
 										{
 											"Text": "Main menu",
+											"Value": "What?",
 											"Win": true
 										}
 									},
 									"choice2":
 									{
 										"Text": "Main menu",
+										"Value": "What?",
 										"Win": true
 									}
 								},
@@ -378,11 +415,13 @@
 									"choice1":
 									{
 										"Text": "Main menu",
+										"Value": "What?",
 										"Win": true
 									},
 									"choice2":
 									{
 										"Text": "Main menu",
+										"Value": "What?",
 										"Win": true
 									}
 								}
@@ -391,6 +430,7 @@
 						"choice2":
 						{
 							"Text": "Main menu",
+							"Value": "What?",
 							"Win": true
 						}
 					}
@@ -410,11 +450,13 @@
 							"choice1":
 							{
 								"Text": "Main menu",
+								"Value": "What?",
 								"Win": true
 							},
 							"choice2":
 							{
 								"Text": "Main menu",
+								"Value": "What?",
 								"Win": true
 							}	
 						},
@@ -425,6 +467,7 @@
 							"choice1":
 							{
 								"Text": "Main menu",
+								"Value": "What?",
 								"Win": true
 							},
 							"choice2":
@@ -434,11 +477,13 @@
 								"choice1":
 								{
 									"Text": "Main menu",
+									"Value": "What?",
 									"Win": true
 								},
 								"choice2":
 								{
 									"Text": "Main menu",
+									"Value": "What?",
 									"Win": true
 								}
 							}
@@ -451,6 +496,7 @@
 						"choice1":
 						{
 							"Text": "Main menu",
+							"Value": "What?",
 							"Win": true
 						},
 						"choice2":
@@ -464,11 +510,13 @@
 								"choice1":
 								{
 									"Text": "Main menu",
+									"Value": "What?",
 									"Win": true
 								},
 								"choice2":
 								{
 									"Text": "Main menu",
+									"Value": "What?",
 									"Win": true
 								}
 							},
@@ -479,6 +527,7 @@
 								"choice1":
 								{
 									"Text": "Main menu",
+									"Value": "What?",
 									"Win": true
 								},
 								"choice2":
@@ -488,11 +537,13 @@
 									"choice1":
 									{
 										"Text": "Main menu",
+										"Value": "What?",
 										"Win": true
 									},
 									"choice2":
 									{
 										"Text": "Main menu",
+										"Value": "What?",
 										"Win": true
 									}
 								}
@@ -512,6 +563,7 @@
 					"choice1":
 					{
 						"Text": "Main menu",
+						"Value": "What?",
 						"Win": true
 					},
 					"choice2":
@@ -529,17 +581,20 @@
 								"choice1":
 								{
 									"Text": "Main menu",
+									"Value": "What?",
 									"Win": true
 								},
 								"choice2":
 								{
 									"Text": "Main menu",
+									"Value": "What?",
 									"Win": true
 								}
 							},
 							"choice2":
 							{
 								"Text": "Main menu",
+								"Value": "What?",
 								"Win": true
 							}
 						},
@@ -550,11 +605,13 @@
 							"choice1":
 							{
 								"Text": "Main menu",
+								"Value": "What?",
 								"Win": true
 							},
 							"choice2":
 							{
 								"Text": "Main menu",
+								"Value": "What?",
 								"Win": true
 							}
 						}
@@ -563,6 +620,7 @@
 				"choice2":
 				{
 					"Text": "Main menu",
+					"Value": "What?",
 					"Win": true
 				}
 			}
