@@ -6,10 +6,13 @@ using UnityEngine.SceneManagement;
 public class splash : MonoBehaviour {
 
     public AudioSource mainmusic;
+    public AudioSource winmusic;
 
-	// Use this for initialization
-	void Start () {
+
+    // Use this for initialization
+    void Start () {
         DontDestroyOnLoad(mainmusic);
+        DontDestroyOnLoad(winmusic);
         mainmusic.Play();
 
         SceneManager.LoadScene(1);
