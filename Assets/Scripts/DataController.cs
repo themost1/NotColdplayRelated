@@ -20,6 +20,7 @@ public class DataController : MonoBehaviour {
 	private GameData data;
 	private GameData currentNode;
     public AudioSource victorysong;
+    public bool winplaying;
 
 	private void SetCurrentNode(GameData newNode)
 	{
@@ -50,7 +51,6 @@ public class DataController : MonoBehaviour {
 			else {
 				winText.text = "You dodged a bullet there. Good job avoiding that loser.";
 			}
-            FindObjectOfType<splash>().mainmusic.Pause();
             victorysong.Play();
 		}
 		else {
@@ -122,7 +122,15 @@ public class DataController : MonoBehaviour {
     {
         yield return new WaitForSeconds(5);
         nextscene.setNextScene(nextScene);
-        SceneManager.LoadScene(9);
+        SceneManager.LoadScene("Cut Scene");
+    }
+
+    private void Update()
+    {
+        if (victorysong != null && victorysong.isPlaying == true)
+        {
+            winplaying = true;
+        }
     }
 }
 
