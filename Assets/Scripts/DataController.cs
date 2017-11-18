@@ -3,38 +3,50 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using System.IO;
+using SimpleJSON;
 
 public class DataController : MonoBehaviour {
 
-	//private string gameDataFileName = "data.json";
-	private string gameDataFileName = "Jeff.json";
+	public TextAsset asset;
+	private GameData data;
 
 	void Start()
 	{
-		//DontDestroyOnLoad(gameObject);
-
-		LoadGameData();
+		Debug.Log (asset);
+		string text = asset.text;
+		JSONNode node = JSON.Parse (text);
+		data = LoadGameData (node);
+		Debug.Log (data.opt1Data.opt2Data.text);
 
 		//SceneManager.LoadScene("MainMenu");
 	}
 
-	private void LoadGameData()
+	private GameData LoadGameData(JSONNode node)
 	{
-		// Path.Combine combines strings into a file path
-		// Application.StreamingAssets points to Assets/StreamingAssets in the Editor, and the StreamingAssets folder in a build
-		string filePath = Path.Combine(Application.streamingAssetsPath, gameDataFileName);
+		GameData data = new GameData ();
+		if (node["Text"] != null)
+			data.text = node ["Text"].Value;
+		if (node ["Lose"] != null)
+			data.isLoss = node ["Lose"].AsBool;
+		if (node ["Win"] != null)
+			data.isVictory = node ["Win"].AsBool;
+		if (node ["Value"] != null)
+			data.value = node ["Value"].Value;
+		if (node ["choice1"] != null)
+			data.opt1Data = LoadGameData (node ["choice1"]);
+		if (node ["choice2"] != null)
+			data.opt2Data = LoadGameData (node ["choice2"]);
+		return data;
+	}
 
-		if (File.Exists(filePath))
-		{
-			// Read the json from the file into a string
-			string dataAsJson = File.ReadAllText(filePath);
-			// Pass the json to JsonUtility, and tell it to create a GameData object from it
-			GameData loadedData = JsonUtility.FromJson<GameData>(dataAsJson);
-		}
-		else
-		{
-			Debug.LogError("Cannot load game data!");
-		}
+	private class GameData
+	{
+		public string value = "";
+		public string text = "";
+		public bool isLoss = false;
+		public bool isVictory = false;
+		public GameData opt1Data = null;
+		public GameData opt2Data = null;
 	}
 }
 

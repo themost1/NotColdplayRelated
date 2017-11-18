@@ -1,0 +1,31 @@
+{
+    "Text": "Here’s what I want to propose: maybe the world could be a maze",
+    "choice1": {
+        "Value": "What does that mean?",
+        "Text": "It could be that too, top-down?",
+        "choice1": {
+            "Value": "That does not make any sense",
+            "Text": "How do we handling rotating levels?",
+        },
+        "choice2": {
+            "Value": "I see what you’re saying, and I like it. Sex?",
+            "Text": "Let’s do it",
+            "Lose": true
+        }
+    },
+    "choice2": {
+        "Value": "That sounds very sexy",
+        "Text": "It’s a maze",
+        "choice1": {
+            "Value": "I don’t know if that’s a true statement",
+            "Text": "BUTTS/TEMP DATA",
+            "Win": true
+
+        },
+        "choice2": {
+            "Value": "Doesn’t that take the entire fun out of it?",
+            "Text": "Yes, but let’s do it! There’s a whole long slice of darkness ;)",
+            "Lose": true
+        }
+    }
+}
