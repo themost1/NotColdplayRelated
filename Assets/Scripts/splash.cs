@@ -7,7 +7,7 @@ public class splash : MonoBehaviour {
 
     public AudioSource mainmusic;
     public AudioSource winmusic;
-    public bool musicplaying;
+    public DataController data;
 
     // Use this for initialization
     void Start () {
@@ -20,9 +20,11 @@ public class splash : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if(mainmusic.isPlaying == true)
+        
+        data = GameObject.FindWithTag("GameController").GetComponent<DataController>();
+        if (data.winplaying == true)
         {
-            musicplaying = true;
+            mainmusic.Pause();
         }
 	}
 }
