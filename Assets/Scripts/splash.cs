@@ -7,7 +7,7 @@ public class splash : MonoBehaviour {
 
     public AudioSource mainmusic;
     public AudioSource winmusic;
-
+    public bool musicplaying;
 
     // Use this for initialization
     void Start () {
@@ -20,6 +20,9 @@ public class splash : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
+        if(mainmusic.isPlaying == true)
+        {
+            musicplaying = true;
+        }
 	}
 }
