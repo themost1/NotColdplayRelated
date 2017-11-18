@@ -65,7 +65,7 @@ public class DataController : MonoBehaviour {
 	public void ScrewYou()
 	{
 		speakerText.gameObject.SetActive (false);
-		EndGame (false);
+		EndGame (!isHot);
 	}
 
 	public void ClickButtonOne()
