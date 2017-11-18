@@ -28,12 +28,12 @@
             "choice1": {
                 "Value": "Nah",
                 "Text": "Fuck you",
-                "Lose": false
+                "Win": true
             },
             "choiec2": {
                 "Value": "Hell no",
                 "Text": "Fuck off",
-                "Lose":  false
+                "Win":  true
             }
         }
 	}
