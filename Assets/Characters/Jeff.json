@@ -6,6 +6,16 @@
         "choice1": {
             "Value": "That does not make any sense",
             "Text": "How do we handling rotating levels?",
+            "choice1": {
+                "Value": "Is that a sex thing? If so, I am in.",
+                "Text": "Yes, it is a sex thing",
+                "Lose": true
+            },
+            "choice2": {
+                "Value": "This is getting a little weird. I'm out.",
+                "Text": "Suit yourself, sucker.",
+                "Lose":  false
+            }
         },
         "choice2": {
             "Value": "I see what you’re saying, and I like it. Sex?",
@@ -18,8 +28,8 @@
         "Text": "It’s a maze",
         "choice1": {
             "Value": "I don’t know if that’s a true statement",
-            "Text": "BUTTS/TEMP DATA",
-            "Win": true
+            "Text": "It isn't. Goodbye.",
+            "Lose": false;
 
         },
         "choice2": {
