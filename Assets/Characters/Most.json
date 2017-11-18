@@ -1,0 +1,22 @@
+{
+	"Text":"I don’t know what you look like, but if you have se with me your game:games will triple!",
+	"choice1":{
+		"Value":"Game:games?",
+		"Lose":false
+	},
+	"choice2":{
+		"Value":"Idk, I already have so much game…",
+		"Text":"More can’t hurt. The real question is how much you can help with my SS.",
+		"choice1":{
+			"Value":"SS?",
+			"Text":"Sex score, a measure of how much sex?",
+			"choice1": {
+				"Value": "Was this game made by teenage boys?",
+				"Text": "Yes."
+			}
+		},
+		"choice2":{
+			"Value":"Tomorrow morning when you see the imprint I left in your bed you will realize just how much of a god you are."
+		}
+	}
+}
