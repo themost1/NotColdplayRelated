@@ -1,0 +1,30 @@
+{
+	"Text":"You like my sexy hat big boy?",
+	"choice1":{
+		"Value":"I am pretty aroused by it tbh. But it would look better on my floor.",
+		"Text":"I never take this hat off. Even in the sprawling arms of my lovers. You do NOT want to see what’s underneath",
+		"choice1":{
+			"Value":"*RIP HAT OFF ANYWAY*",
+			"Lose":true
+		},
+		"choice2":{
+			"Value":"In that case, could you play me a song about your hat?",
+			"Text":"*Musical interlude as Lalo sings about his hat*",
+			"choice1":{
+				"Value":"Wow that is hot, wanna fuck?",
+				"Text":"Yeah of course",
+				"Win":true
+			},
+			"choice2":{
+				"Value":"See, I can sing too: 'La lo I like hats la lo'",
+				"Text":"How do you know my name????? This is creepy I’m out of here.",
+				"Lose":true
+			}
+		}
+	},
+	"choice2":{
+		"Value":"Yeah of course, Zelda is my favorite!",
+		"Text":"FUck you BIDDDTCH!!!",
+		"Lose":true
+	}
+}
