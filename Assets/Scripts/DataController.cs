@@ -124,17 +124,5 @@ public class DataController : MonoBehaviour {
         nextscene.setNextScene(nextScene);
         SceneManager.LoadScene(9);
     }
-
-    private void Update()
-    {
-        if (victorysong.isPlaying == true)
-        {
-            FindObjectOfType<splash>().mainmusic.Pause();
-        }
-        else
-        {
-            FindObjectOfType<splash>().mainmusic.Play();
-        }
-    }
 }
 
