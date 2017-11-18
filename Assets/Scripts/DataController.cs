@@ -19,6 +19,7 @@ public class DataController : MonoBehaviour {
 	public string nextScene;
 	private GameData data;
 	private GameData currentNode;
+    public AudioSource victorysong;
 
 	private void SetCurrentNode(GameData newNode)
 	{
@@ -49,6 +50,7 @@ public class DataController : MonoBehaviour {
 			else {
 				winText.text = "You dodged a bullet there. Good job avoiding that loser.";
 			}
+            victorysong.Play();
 		}
 		else {
 			if (isHot) {
