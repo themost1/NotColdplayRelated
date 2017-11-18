@@ -1,0 +1,21 @@
+{
+	"Text":"I just want to make sure I stopped eating pizza a while ago.",
+	"choice1":{
+		"Value":"Okay....good for you?",
+		"Text":"Obviously we have to like flip it and it on",
+		"choice1":{
+			"Value":"Do you just put in things in the right places?",
+			"Text":"Yeah.",
+			"Lose":true
+		},
+		"choice2":{
+			"Value":"It was not fast enough",
+			"Text":"Yeah.",
+			"Lose":true
+		}
+	},
+	"choice2":{
+		"Value":"I hate pizza also",
+		"Lose":true
+	}
+}
