@@ -25,7 +25,11 @@ public class splash : MonoBehaviour {
             data = GameObject.FindWithTag("GameController").GetComponent<DataController>();
             if (data.winplaying == true)
             {
-                mainmusic.Pause();
+                mainmusic.Stop();
+            }
+            else if (!mainmusic.isPlaying)
+            {
+                mainmusic.Play();
             }
         }
 	}
