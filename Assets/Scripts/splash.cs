@@ -15,7 +15,7 @@ public class splash : MonoBehaviour {
         DontDestroyOnLoad(winmusic);
         mainmusic.Play();
 
-        SceneManager.LoadScene("instructions");
+        SceneManager.LoadScene("MainMenu");
 	}
 	
 	// Update is called once per frame

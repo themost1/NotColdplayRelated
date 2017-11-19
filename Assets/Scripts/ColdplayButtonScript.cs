@@ -17,6 +17,6 @@ public class ColdplayButtonScript : MonoBehaviour {
 
     private void OnMouseDown()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene("instructions");
     }
 }
