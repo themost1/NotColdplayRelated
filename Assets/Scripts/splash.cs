@@ -20,6 +20,14 @@ public class splash : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+        if (SceneManager.GetActiveScene().name == "gameover")
+        {
+            mainmusic.Stop();
+        }
+        else if(SceneManager.GetActiveScene().name == "MainMenu" && !mainmusic.isPlaying)
+        {
+            mainmusic.Play();
+        }
         GameObject controller = GameObject.FindWithTag("GameController");
         if (controller != null) {
             data = GameObject.FindWithTag("GameController").GetComponent<DataController>();
