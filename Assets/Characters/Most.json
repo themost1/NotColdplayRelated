@@ -51,6 +51,20 @@
 					"Text": "Your SS will forever be diminished.",
 					"Lose": true
 				}
+			},
+			"choice2": {
+				"Value": "How can I improve my sex score?",
+				"Text": "By having sex with cool people of course.",
+				"choice1": {
+					"Value": "Are you a cool person?",
+					"Text": "Of course, let's head over to my room!",
+					"Win": true
+				},
+				"choice2": {
+					"Value": "Are Steven or Grayson cool people?",
+					"Text": "Wow, you really don't understand.",
+					"Lose": true
+				}
 			}
 		},
 		"choice2":{
