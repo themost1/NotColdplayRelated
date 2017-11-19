@@ -123,7 +123,7 @@ public class DataController : MonoBehaviour {
     {
         yield return new WaitForSeconds(5);
         nextscene.setNextScene(nextScene);
-        SceneManager.LoadScene(9);
+        SceneManager.LoadScene("Cut Scene");
     }
 
     private void Update()
