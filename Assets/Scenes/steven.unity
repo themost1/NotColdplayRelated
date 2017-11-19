@@ -275,6 +275,7 @@ MonoBehaviour:
   nextScene: hollis
   victorysong: {fileID: 1710666889}
   winplaying: 0
+  font: {fileID: 12800000, guid: 81fea01af44b9e143930500a739ce3c7, type: 3}
 --- !u!4 &562628961
 Transform:
   m_ObjectHideFlags: 0
