@@ -17,6 +17,6 @@ public class ReturnToMain : MonoBehaviour {
 
     private void OnMouseDown()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene("MainMenu");
     }
 }
