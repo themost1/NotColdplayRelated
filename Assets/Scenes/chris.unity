@@ -275,6 +275,7 @@ MonoBehaviour:
   nextScene: eli
   victorysong: {fileID: 1710666889}
   winplaying: 0
+  font: {fileID: 12800000, guid: b68fdb6876dcc684aaf948650b95f4e9, type: 3}
 --- !u!4 &562628961
 Transform:
   m_ObjectHideFlags: 0

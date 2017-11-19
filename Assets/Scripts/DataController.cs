@@ -21,6 +21,7 @@ public class DataController : MonoBehaviour {
 	private GameData currentNode;
     public AudioSource victorysong;
     public bool winplaying;
+    public Font font;
 
 	private void SetCurrentNode(GameData newNode)
 	{
@@ -84,6 +85,8 @@ public class DataController : MonoBehaviour {
 	public void Start()
 	{
 		string text = asset.text;
+		speakerText.font = font;
+		winText.font = font;
 		JSONNode node = JSON.Parse (text);
 		data = LoadGameData (node);
 		SetCurrentNode (data);
