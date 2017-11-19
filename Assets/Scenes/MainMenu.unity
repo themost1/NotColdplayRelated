@@ -195,7 +195,6 @@ GameObject:
   - component: {fileID: 261114802}
   - component: {fileID: 261114801}
   - component: {fileID: 261114800}
-  - component: {fileID: 261114799}
   m_Layer: 0
   m_Name: coldplaytitle-instructionsbutton
   m_TagString: Untagged
@@ -203,17 +202,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &261114799
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 261114798}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 13e22eb17542b52438fb83aa12ca343a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!61 &261114800
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -523,7 +511,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: -561925217
+  randomSeed: -116153674
   InitialModule:
     serializedVersion: 3
     enabled: 1
