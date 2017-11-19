@@ -21,7 +21,7 @@ public class DataController : MonoBehaviour {
 	private GameData currentNode;
     public AudioSource victorysong;
     public bool winplaying;
-    public Font font;
+    
 
 	private void SetCurrentNode(GameData newNode)
 	{
@@ -85,8 +85,6 @@ public class DataController : MonoBehaviour {
 	public void Start()
 	{
 		string text = asset.text;
-		speakerText.font = font;
-		winText.font = font;
 		JSONNode node = JSON.Parse (text);
 		data = LoadGameData (node);
 		SetCurrentNode (data);
@@ -125,12 +123,12 @@ public class DataController : MonoBehaviour {
     {
         yield return new WaitForSeconds(5);
         nextscene.setNextScene(nextScene);
-        SceneManager.LoadScene("Cut Scene");
+        SceneManager.LoadScene(9);
     }
 
     private void Update()
     {
-        if (victorysong != null && victorysong.isPlaying == true)
+        if (victorysong.isPlaying == true)
         {
             winplaying = true;
         }
