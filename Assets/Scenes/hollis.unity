@@ -344,7 +344,7 @@ MonoBehaviour:
   speakerText: {fileID: 1956899580}
   winText: {fileID: 1391652714}
   asset: {fileID: 4900000, guid: 3230021aa57ff244abde941627ec8633, type: 3}
-  isHot: 0
+  isHot: 1
   nextScene: gameover
   victorysong: {fileID: 1710666889}
   winplaying: 0

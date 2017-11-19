@@ -51,6 +51,29 @@
 					"Text": "Your SS will forever be diminished.",
 					"Lose": true
 				}
+			},
+			"choice2": {
+				"Value": "How can I improve my sex score?",
+				"Text": "By having sex with cool people of course.",
+				"choice1": {
+					"Value": "Are you a cool person?",
+					"Text": "Of course, let's head over to my room!",
+					"Win": true
+				},
+				"choice2": {
+					"Value": "Are Steven or Grayson cool people?",
+					"Text": "Nah, they are pretty lame. One more thing. If I said my last name was Moist, what would you think about that?",
+					"choice1": {
+						"Value": "FUCK ME NOW",
+						"Text": "",
+						"Win": true
+					},
+					"choice2": {
+						"Value": "Ew. I hate the word moist.",
+						"Text": "You are beneath me.",
+						"Lose": true
+					}
+				}
 			}
 		},
 		"choice2":{
