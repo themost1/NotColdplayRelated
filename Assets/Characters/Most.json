@@ -62,8 +62,17 @@
 				},
 				"choice2": {
 					"Value": "Are Steven or Grayson cool people?",
-					"Text": "Wow, you really don't understand.",
-					"Lose": true
+					"Text": "Nah, they are pretty lame. One more thing. If I said my last name was Moist, what would you think about that?",
+					"choice1": {
+						"Value": "FUCK ME NOW",
+						"Text": "",
+						"Win": true
+					},
+					"choice2": {
+						"Value": "Ew. I hate the word moist.",
+						"Text": "You are beneath me.",
+						"Lose": true
+					}
 				}
 			}
 		},
