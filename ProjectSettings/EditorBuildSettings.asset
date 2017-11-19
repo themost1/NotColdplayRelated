@@ -44,3 +44,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/hollis.unity
     guid: d281864c694e59f43baf3185012b6086
+  - enabled: 1
+    path: Assets/Scenes/instructions.unity
+    guid: dfd84800b99fb4892876b889f7e9d77b
